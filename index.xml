@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Workshop on Machine Learning for Autonomous Driving</title>
-    <link>http://neurips.wad.vision/</link>
+    <link>https://ml4ad.github.io/</link>
     <description>Recent content on Workshop on Machine Learning for Autonomous Driving</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="http://neurips.wad.vision/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ml4ad.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

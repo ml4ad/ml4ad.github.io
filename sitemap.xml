@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://neurips.wad.vision/categories/</loc>
+    <loc>https://ml4ad.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://neurips.wad.vision/tags/</loc>
+    <loc>https://ml4ad.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://neurips.wad.vision/</loc>
+    <loc>https://ml4ad.github.io/</loc>
     <priority>0</priority>
   </url>
   
