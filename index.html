@@ -744,7 +744,24 @@ References and appendix should be appended into the same (single) PDF document, 
 
 </ul>
 </div>
-<div class="column">
+<div class="column" id="program-commitee">
+</div>
+</div>
+
+<script>
+  
+  var x = setTimeout(function() {
+    var width = window.innerWidth;
+    if (width >= 800) {
+      document.getElementById("program-commitee").innerHTML = document.getElementById('program-commitee-text').innerHTML;
+    }
+  }, 0);
+    function startCounter(){
+      document.getElementById("program-commitee").innerHTML = ""
+    }
+</script>
+
+<script id="program-commitee-text" type="text/html">
 <h2 class="section-title">Program Committee</h2>
   <p>&nbsp;&nbsp;&nbsp;We thank those who help make this workshop possible:</p>
   <p>
@@ -871,7 +888,7 @@ References and appendix should be appended into the same (single) PDF document, 
   
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp; 
   
-    <a href="https://www.linkedin.com/in/sergio-valcarcel-macua-97b89272/" target="_blank" title="Sergio Valcarcel Macua"> Sergio Valcarcel Macua </a>
+    <a href="https://www.linkedin.com/in/sergio-valcarcel-macua-97b89272/" target="_blank" title="Sergio Macua"> Sergio Macua </a>
   
   <br>
   
@@ -979,7 +996,7 @@ References and appendix should be appended into the same (single) PDF document, 
   
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp; 
   
-    <a href="https://hengshuaiyao.github.io/%20" target="_blank" title="Hengshuai Yao"> Hengshuai Yao </a>
+    <a href="https://hengshuaiyao.github.io/" target="_blank" title="Hengshuai Yao"> Hengshuai Yao </a>
   
   <br>
   
@@ -990,13 +1007,7 @@ References and appendix should be appended into the same (single) PDF document, 
   <br>
   
   </p>
-</div>
-</div>
-
-
-
-
-
+</script>
 
           </section>
         
