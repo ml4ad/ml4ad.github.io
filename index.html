@@ -153,8 +153,8 @@ transparent {
 </style>
 
 <p itemprop="dates-description">
-&rarr;<b>Paper submissions due</b>: 17th September 2019 at 23:59 Anywhere on Earth: <b><span id="countdown-dates"></span></b><br>
-<hide>&rarr;</hide><transparent><b>Author notifications</b>: 1st October 2019</transparent><br>
+<hide>&rarr;</hide><transparent><b>Paper submissions due</b>: 17th September 2019 at 23:59 Anywhere on Earth: <b><span id="countdown-dates"></span></b></transparent><br>
+&rarr;<b>Author notifications</b>: 1st October 2019<br>
 <hide>&rarr;</hide><transparent><b>Camera-ready paper due</b>: 1st December 2019</transparent><br><br>
 <hide>&rarr;</hide><b>Date</b>: Saturday 14th December 2019 <br>
 <hide>&rarr;</hide><b>Room</b>: 118-120 (West Level 1) <br>
@@ -381,8 +381,7 @@ transparent {
             <h2 class="section-title">Submissions</h2>
 
 <p itemprop="call-details">
-<b>Submission deadline: 17th September 2019</b> at 23:59 Anywhere on Earth</a>: 
-<b><span id="countdown-call"></span></b><br>
+<b>Submission deadline: 17th September 2019</b> at 23:59 Anywhere on Earth</a>: <b><span id="countdown-call"></span></b><br>
 Submission website: <a href="https://cmt3.research.microsoft.com/ML4AD2019" target="_blank">https://cmt3.research.microsoft.com/ML4AD2019</a><br>
 Submission format: either extended abstracts (4 pages) or full papers (8 pages) anonymously using: <br>
 &nbsp;•&nbsp; <a href="https://ml4ad.github.io/files/neurips_2019_ml4ad.tex" target="_blank">neurips_2019_ml4ad.tex</a> -- LaTeX template<br>
@@ -420,7 +419,7 @@ References and appendix should be appended into the same (single) PDF document, 
 <b>A:</b> No. Neither 4 or 8 page submissions will be indexed nor have archival proceedings.<br>
 <br>
 <b>Q:</b> Should submitted papers be anonymized?<br>
-<b>A:</b> Yes! If accepted, we will ask for a de-anonymized version to link on the website.<br>
+<b>A:</b> Yes. If accepted, we will ask for a de-anonymized version to link on the website.<br>
 </p>
 
 <script>
@@ -449,7 +448,7 @@ References and appendix should be appended into the same (single) PDF document, 
     
     if (distance < 0) {
       clearInterval(x);
-      countdown = "EXPIRED (CMT will close shortly. Upload soon!)";
+      countdown = "(submissions now closed)";  
     }
 
     document.getElementById("countdown-dates").innerHTML = countdown
