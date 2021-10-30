@@ -456,7 +456,7 @@ References and appendix should be appended into the same (single) PDF document, 
           <section class="schedule" id="schedule">
             <h2 class="section-title">Schedule</h2>
 
-<p>December 13th, 2021. All times are in Pacific Time (PT)</p>
+<p>Monday, December 13th, 2021. All times are in Pacific Time. Current time is <span id="pacifictime"></span></p>
 
 <div class="schedule-tbl">
 
@@ -604,12 +604,18 @@ References and appendix should be appended into the same (single) PDF document, 
         
       
         
-          <tr class="schedule-other">
+          <tr>
             <td class="schedule-time">12:20</td>
-            <td class="schedule-slot">CARLA Challenge<span class="speakers-company"></span></td>
+            <td class="schedule-slot">
             
-              <td class="schedule-description"></td>
+
+              CARLA Challenge
+              <span class="speakers-company"></span>
+            </td>
+            
               
+              <td class="schedule-description"><a href=https://leaderboard.carla.org/challenge/ target="_blank">CARLA Autonomous Driving Challenge</a>
+            
           </tr>
         
       
@@ -710,7 +716,7 @@ References and appendix should be appended into the same (single) PDF document, 
               <span class="speakers-company">Waymo</span>
             </td>
             
-              <td class="schedule-description"></td>
+              <td class="schedule-description">Learning Driving Agents from Simulation</td>
             
           </tr>
         
@@ -760,6 +766,22 @@ References and appendix should be appended into the same (single) PDF document, 
             <td class="schedule-slot">
             
 
+              Shifts Challenge
+              <span class="speakers-company"></span>
+            </td>
+            
+              
+              <td class="schedule-description"><a href=https://research.yandex.com/shifts target="_blank">Robustness and Uncertain­ty under Real-World Distributional Shift</a>
+            
+          </tr>
+        
+      
+        
+          <tr>
+            <td class="schedule-time">18:20</td>
+            <td class="schedule-slot">
+            
+
               Closing Remarks
               <span class="speakers-company"></span>
             </td>
@@ -773,6 +795,16 @@ References and appendix should be appended into the same (single) PDF document, 
   </table>
 </div>
 
+
+
+<script>
+  
+  var x = setInterval(function() {
+    var d = new Date();
+    var n = d.toLocaleTimeString("en-US", {timeZone: "America/Los_Angeles", hour: '2-digit', minute:'2-digit', hour12: false})
+    document.getElementById("pacifictime").innerHTML = n
+  }, 1000);
+</script>
 
 
           </section>
@@ -974,12 +1006,6 @@ References and appendix should be appended into the same (single) PDF document, 
     
       &nbsp;&nbsp;•&nbsp; 
       
-        <a href="https://www.linkedin.com/in/abubakr-alabbasi-28595460/" target="_blank" title="Abubakr Alabbasi"> Abubakr Alabbasi </a>
-      
-      <br>
-    
-      &nbsp;&nbsp;•&nbsp; 
-      
         <a href="https://www.linkedin.com/in/elmira-amirloo/" target="_blank" title="Elmira Amirloo Abolfathi"> Elmira Amirloo Abolfathi </a>
       
       <br>
@@ -993,18 +1019,6 @@ References and appendix should be appended into the same (single) PDF document, 
       &nbsp;&nbsp;•&nbsp; 
       
         <a href="https://www.linkedin.com/in/ershad-banijamali-723bb147/" target="_blank" title="Ershad Banijamali"> Ershad Banijamali </a>
-      
-      <br>
-    
-      &nbsp;&nbsp;•&nbsp; 
-      
-        <a href="https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/apratim-bhattacharyya/" target="_blank" title="Apratim Bhattacharyya"> Apratim Bhattacharyya </a>
-      
-      <br>
-    
-      &nbsp;&nbsp;•&nbsp; 
-      
-        <a href="https://www.embedded.uni-tuebingen.de/index.php?id=1448" target="_blank" title="Oliver Bringmann"> Oliver Bringmann </a>
       
       <br>
     
@@ -1056,17 +1070,6 @@ References and appendix should be appended into the same (single) PDF document, 
       
       <br>
     
-    </p>
-  </div>
-  <div class="column">
-    <p>
-    
-      &nbsp;&nbsp;•&nbsp; 
-      
-        <a href="https://www.linkedin.com/in/ahmad-el-sallab-phd-7aa2195a/" target="_blank" title="Ahmad ElSallab"> Ahmad ElSallab </a>
-      
-      <br>
-    
       &nbsp;&nbsp;•&nbsp; 
       
         <a href="https://heshameraqi.github.io/" target="_blank" title="Hesham Eraqi"> Hesham Eraqi </a>
@@ -1078,6 +1081,11 @@ References and appendix should be appended into the same (single) PDF document, 
         <a href="https://www.linkedin.com/in/meng-fan-yale/" target="_blank" title="Meng Fan"> Meng Fan </a>
       
       <br>
+    
+    </p>
+  </div>
+  <div class="column">
+    <p>
     
       &nbsp;&nbsp;•&nbsp; 
       
@@ -1163,16 +1171,6 @@ References and appendix should be appended into the same (single) PDF document, 
       
       <br>
     
-    </p>
-  </div>
-  </div>
-</div>
-<div class="column" id="pc2">
-  
-  <div class="row">
-  <div class="column">
-    <p>
-    
       &nbsp;&nbsp;•&nbsp; 
       
         <a href="https://www.linkedin.com/in/xiaoyuanliang/" target="_blank" title="Xiaoyuan Liang"> Xiaoyuan Liang </a>
@@ -1184,6 +1182,16 @@ References and appendix should be appended into the same (single) PDF document, 
         <a href="https://teckyianlim.me/" target="_blank" title="Teck Lim"> Teck Lim </a>
       
       <br>
+    
+    </p>
+  </div>
+  </div>
+</div>
+<div class="column" id="pc2">
+  
+  <div class="row">
+  <div class="column">
+    <p>
     
       &nbsp;&nbsp;•&nbsp; 
       
@@ -1269,16 +1277,16 @@ References and appendix should be appended into the same (single) PDF document, 
       
       <br>
     
-    </p>
-  </div>
-  <div class="column">
-    <p>
-    
       &nbsp;&nbsp;•&nbsp; 
       
         <a href="https://www.linkedin.com/in/mennatullah-siam-6546508a/" target="_blank" title="Mennatullah Siam"> Mennatullah Siam </a>
       
       <br>
+    
+    </p>
+  </div>
+  <div class="column">
+    <p>
     
       &nbsp;&nbsp;•&nbsp; 
       
@@ -1406,7 +1414,7 @@ References and appendix should be appended into the same (single) PDF document, 
 
         <footer class="footer">
           </p>
-          <p>Made with ♥ by <a href="https://github.com/braziljs/conf-boilerplate" target="_blank">Conf Boilerplate</a> :)</p>
+          <p>Made using <a href="https://github.com/braziljs/conf-boilerplate" target="_blank">Conf Boilerplate</a></p>
         </footer>
       </div>
     </div>
