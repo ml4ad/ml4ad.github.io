@@ -159,7 +159,7 @@ transparent {
 <h4>Challenge</h4>
 <p itemprop="dates-description">
 <hide>&rarr;</hide><b>Open</b>: 15th September 2021<br>
-<hide>&rarr;</hide><b>Close</b>: 19th November 2021 at 23:59 AoE: <b><span id="countdown"></span></b><br>
+<hide>&rarr;</hide><b>Close</b>: 19th November 2021<br>  
 <hide>&rarr;</hide><b>Notification</b>: 22nd November 2021<br>
 <hide>&rarr;</hide><b>Video submission</b>: 1st December 2021<br>
 </p>
@@ -169,39 +169,7 @@ transparent {
 <hide>&rarr;</hide><b>Workshop event</b>: 13th December 2021<br>
 </p>
 
-<script>
-  
-  var countDownDate = new Date("Nov 19, 2021 23:59:59 UTC").getTime();  
-  countDownDate = countDownDate + 1000 * 3600 * 12 
 
-  
-  var x = setInterval(function() {
-
-    
-    var now = new Date().getTime();
-
-    
-    var distance = countDownDate - now;
-
-    
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-    
-    var countdown = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-
-    
-    if (distance < 0) {
-      clearInterval(x);
-      countdown = "(expired)";  
-    }
-
-    document.getElementById("countdown").innerHTML = countdown
-
-  }, 1000);
-</script>
 
           </section>
         
@@ -793,6 +761,18 @@ Bahar Azari, Deniz Erdoğmuş<br>
 <a href="https://ml4ad.github.io/files/papers2021/Circular-Symmetric Correlation Layer.pdf" target="_blank">paper</a>
  |
 <a href="https://eventhosts.gather.town/app/yeFKO3KiQtEBPRY1/ml4ad-poster-room" target="_blank">poster A3</a>
+<br><br>
+<b>MTL-TransMODS: Cascaded Multi-Task Learning for Moving Object Detection and Segmentation with Unified Transformers</b><br>
+Eslam Mohamed Bakr, Ahmad El Sallab<br>
+<a href="https://ml4ad.github.io/files/papers2021/MTL-TransMODS: Cascaded Multi-Task Learning for Moving Object Detection and Segmentation with Unified Transformers.pdf" target="_blank">paper</a>
+ |
+<a href="https://eventhosts.gather.town/app/yeFKO3KiQtEBPRY1/ml4ad-poster-room" target="_blank">poster B2</a>
+<br><br>
+<b>PKCAM: Previous Knowledge Channel Attention Module</b><br>
+Eslam Mohamed Bakr, Ahmad El Sallab, Mohsen A. Rashwan<br>
+<a href="https://ml4ad.github.io/files/papers2021/PKCAM: Previous Knowledge Channel Attention Module.pdf" target="_blank">paper</a>
+ |
+<a href="https://eventhosts.gather.town/app/yeFKO3KiQtEBPRY1/ml4ad-poster-room" target="_blank">poster B3</a>
 <br><br>
 <b>Fast Polar Attentive 3D Object Detection on LiDAR Point Clouds</b><br>
 Manoj Bhat, Steve Han, Fatih Porikli<br>
