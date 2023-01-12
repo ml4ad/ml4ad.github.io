@@ -42,8 +42,22 @@
     
       <li class="nav-item">
         
+        <a href="#dates" title="Dates" class="nav-link">
+          Dates
+        </a>
+      </li>
+    
+      <li class="nav-item">
+        
         <a href="#speakers" title="Speakers" class="nav-link">
           Speakers
+        </a>
+      </li>
+    
+      <li class="nav-item">
+        
+        <a href="#submit" title="Submit" class="nav-link">
+          Submit
         </a>
       </li>
     
@@ -148,6 +162,91 @@ you can apply for financial support to attend our workshop <a href="https://docs
 <p>
 <b>Contact:</b> ml4ad2022@googlegroups.com
 </p>
+
+<p>
+<b>Post Event:</b> all videos now avilable on <a href="https://slideslive.com/neurips-2022/workshop-machine-learning-for-autonomous-driving" target="_blank">SlidesLive</a> and <a href="https://www.youtube.com/@ml4ad2022/videos" target="_blank">YouTube</a></br>
+</p>
+
+
+
+          </section>
+        
+          <section class="dates" id="dates">
+            <h2 class="section-title">Dates</h2>
+
+<style> 
+hide {
+  opacity: 0.0;
+}
+</style>
+
+<style> 
+transparent {
+  opacity: 0.7;
+}
+</style>
+
+
+<h4>Papers</h4>
+<p itemprop="dates-description">
+
+
+<hide>&rarr;</hide><b>Submission due</b>: 1st October 2022<br> 
+<hide>&rarr;</hide><b>Reviewing starts</b>: 4th October 2022<br>
+<hide>&rarr;</hide><b>Reviewing ends</b>: 17th October 2022<br>
+<hide>&rarr;</hide><b>Notification</b>: 20th October 2022<br>
+<hide>&rarr;</hide><b>Camera Ready</b>: 1st November 2022<br>
+<hide>&rarr;</hide><b>Video upload</b>: 10th November 2022<br>
+<hide>&rarr;</hide><b>Poster upload</b>: 15th November 2022<br>
+</p>
+
+<h4>Challenge</h4>
+<p itemprop="dates-description">
+<hide>&rarr;</hide><b>Training materials</b>: 5th September 2022<br>
+<hide>&rarr;</hide><b>Open</b>: 26th September 2022<br>
+<hide>&rarr;</hide><b>Close</b>: 7th November 2022<br>  
+<hide>&rarr;</hide><b>Notification</b>: 10th November 2022<br>
+<hide>&rarr;</hide><b>Video submission</b>: 24th November 2022<br>
+</p>
+
+<h4>Workshop</h4>
+<p itemprop="dates-description">
+<hide>&rarr;</hide><b>Workshop event</b>: 3rd December 2022<br>
+</p>
+
+<script>
+  
+  var countDownDate = new Date("Oct 01, 2022 23:59:59 UTC").getTime();  
+  countDownDate = countDownDate + 1000 * 3600 * 12 
+
+  
+  var x = setInterval(function() {
+
+    
+    var now = new Date().getTime();
+
+    
+    var distance = countDownDate - now;
+
+    
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    
+    var countdown = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+    
+    if (distance < 0) {
+      clearInterval(x);
+      countdown = "(expired)";  
+    }
+
+    document.getElementById("countdown").innerHTML = countdown
+
+  }, 1000);
+</script>
 
 
           </section>
@@ -313,6 +412,59 @@ you can apply for financial support to attend our workshop <a href="https://docs
 
           </section>
         
+          <section class="submit" id="submit">
+            <h2 class="section-title">Submissions</h2>
+
+<p itemprop="call-details">
+<b>Submission deadline: 1st October 2022</b> at 23:59 Anywhere on Earth<br>
+Submission website: <a href="https://cmt3.research.microsoft.com/ML4AD2022" target="_blank">https://cmt3.research.microsoft.com/ML4AD2022</a><br>
+Submission format: either extended abstracts (4 pages) or full papers (8 or 9 pages) anonymously using: <br>
+&nbsp;•&nbsp; <a href="https://ml4ad.github.io/files/neurips_2022_ml4ad.tex" target="_blank">neurips_2022_ml4ad.tex</a> -- LaTeX template<br>
+&nbsp;•&nbsp; <a href="https://ml4ad.github.io/files/neurips_2022_ml4ad.sty" target="_blank">neurips_2022_ml4ad.sty</a> -- style file for LaTeX 2e<br>
+&nbsp;•&nbsp; <a href="https://ml4ad.github.io/files/neurips_2022_ml4ad.pdf" target="_blank">neurips_2022_ml4ad.pdf</a> -- example PDF output<br>
+References and appendix should be appended into the same (single) PDF document, and do not count towards the page count.<br>
+</p>
+
+<p>We invite submissions on machine learning applied to autonomous driving, including (but not limited to):<br>
+&nbsp;•&nbsp; Supervised scene perception and classification<br>
+&nbsp;•&nbsp; Unsupervised representation learning for driving<br>
+&nbsp;•&nbsp; Behavior modeling of pedestrians and vehicles<br>
+&nbsp;•&nbsp; Gesture recognition<br>
+&nbsp;•&nbsp; Uncertainty propagation through AV software pipelines<br>
+&nbsp;•&nbsp; Metrics for autonomous driving<br>
+&nbsp;•&nbsp; Benchmarks for autonomous driving<br>
+&nbsp;•&nbsp; Real-time inference and prediction<br>
+&nbsp;•&nbsp; Causal modeling for multi-agent traffic scenarios<br>
+&nbsp;•&nbsp; Robustness to out-of-distribution road scenes<br>
+&nbsp;•&nbsp; Imitative driving policies<br>
+&nbsp;•&nbsp; Transfer learning from simulation to real-world (Sim2Real) <br>
+&nbsp;•&nbsp; Coordination with human-driven vehicles<br>
+&nbsp;•&nbsp; Coordination with vehicles (V2V) or infrastructure (V2I)<br>
+&nbsp;•&nbsp; Explainable driving decisions<br>
+&nbsp;•&nbsp; Adaptive driving styles based on user preferences<br>
+</p>
+
+<p>
+<b>FAQ</b><br>
+<br>
+<b>Q:</b> Will there be archival proceedings?<br>
+<b>A:</b> No. Neither 4 or 8 or 9 page submissions will be indexed nor have archival proceedings.<br>
+<br>
+<b>Q:</b> Should submitted papers be anonymized?<br>
+<b>A:</b> Yes. If accepted, we will ask for a de-anonymized version to link on the website.<br>
+<br>
+<b>Q:</b> My papers contains ABC, but not XYZ, is this good enough for a submission?<br>
+<b>A:</b> Submissions will be evaluated based on <a href="https://ml4ad.github.io/img/review-questions.png" target="_blank">these</a> reviewer questions.<br>
+<br>
+
+</p>
+
+
+
+
+
+          </section>
+        
           <section class="schedule" id="schedule">
             <h2 class="section-title">Schedule</h2>
 
@@ -342,7 +494,7 @@ you can apply for financial support to attend our workshop <a href="https://docs
 
               
             
-              Welcome
+              <a href=https://slideslive.com/38997129/machine-learning-for-autonomous-driving-welcome-remarks target="_blank">Welcome</a>
             
               <span class="speakers-company"></span>
             </td>
@@ -370,7 +522,7 @@ you can apply for financial support to attend our workshop <a href="https://docs
             </td>
             
               
-              <td class="schedule-description"><a href=https://youtu.be/29eWS5UB7Lc target="_blank">Vision-centric Autonomous Driving: from Perception to Prediction</a>
+              <td class="schedule-description"><a href=https://slideslive.com/38994771/visioncentric-autonomous-driving-from-perception-to-prediction target="_blank">Vision-centric Autonomous Driving: from Perception to Prediction</a>
             
           </tr>
         
@@ -392,7 +544,8 @@ you can apply for financial support to attend our workshop <a href="https://docs
               <span class="speakers-company">University of Illinois, Urbana-Champaign</span>
             </td>
             
-              <td class="schedule-description">Trustworthy Machine Learning in Autonomous Driving</td>
+              
+              <td class="schedule-description"><a href=https://slideslive.com/38994585/trustworthy-machine-learning-for-autonomous-vehicles target="_blank">Trustworthy Machine Learning in Autonomous Driving</a>
             
           </tr>
         
@@ -452,7 +605,8 @@ you can apply for financial support to attend our workshop <a href="https://docs
               <span class="speakers-company">University of California, Los Angeles</span>
             </td>
             
-              <td class="schedule-description">Toward Generalizable Embodied AI for Autonomous Driving</td>
+              
+              <td class="schedule-description"><a href=https://slideslive.com/38996436/toward-safe-and-generalizable-embodied-ai-for-decisionmaking target="_blank">Toward Safe and Generalizable Embodied AI for Decision-Making</a>
             
           </tr>
         
@@ -474,7 +628,8 @@ you can apply for financial support to attend our workshop <a href="https://docs
               <span class="speakers-company">Cruise</span>
             </td>
             
-              <td class="schedule-description">Scenario Generation for Long-Tail Discovery</td>
+              
+              <td class="schedule-description"><a href=https://slideslive.com/38994586/scaling-the-robottaxi-how-cruise-is-making-its-technology-futureproof target="_blank">Scaling the Robottaxi, How Cruise is Making Its Technology Future-Proof</a>
             
           </tr>
         
@@ -516,7 +671,7 @@ you can apply for financial support to attend our workshop <a href="https://docs
             </td>
             
               
-              <td class="schedule-description"><a href=https://youtu.be/sZ3KOnnZ6Hw target="_blank">Contingency Planning with Learned Models of Behavioral and Perceptual Uncertainty</a>
+              <td class="schedule-description"><a href=https://slideslive.com/38994770/contingency-planning-with-learned-models-of-behavioral-and-perceptual-uncertainty target="_blank">Contingency Planning with Learned Models of Behavioral and Perceptual Uncertainty</a>
             
           </tr>
         
@@ -539,7 +694,7 @@ you can apply for financial support to attend our workshop <a href="https://docs
             </td>
             
               
-              <td class="schedule-description"><a href=https://youtu.be/-tkEm4WMv9w target="_blank">CausalAgents: A Robustness Benchmark for Motion Forecasting using Causal Relationships</a>
+              <td class="schedule-description"><a href=https://slideslive.com/38994587/causalagents-a-robustness-benchmark-for-motion-forecasting-using-causal-relationships target="_blank">CausalAgents: A Robustness Benchmark for Motion Forecasting using Causal Relationships</a>
             
           </tr>
         
@@ -580,7 +735,8 @@ you can apply for financial support to attend our workshop <a href="https://docs
               <span class="speakers-company">The University of Sydney</span>
             </td>
             
-              <td class="schedule-description">Operating Autonomous Vehicles In Different Contexts - On Roads and In Shared Spaces</td>
+              
+              <td class="schedule-description"><a href=https://slideslive.com/38994588/intelligent-transportation-systems-acfr target="_blank">Intelligent transportation systems - ACFR</a>
             
           </tr>
         
@@ -598,7 +754,8 @@ you can apply for financial support to attend our workshop <a href="https://docs
               <span class="speakers-company">German Ros</span>
             </td>
             
-              <td class="schedule-description">CARLA Autonomous Driving Challenge 2022</td>
+              
+              <td class="schedule-description"><a href=https://slideslive.com/38996745/carla-autonomous-driving-challenge-2022 target="_blank">CARLA Autonomous Driving Challenge 2022</a>
             
           </tr>
         
@@ -611,7 +768,7 @@ you can apply for financial support to attend our workshop <a href="https://docs
 
               
             
-              Closing Remarks
+              <a href=https://slideslive.com/38997130/closing-remarks target="_blank">Closing Remarks</a>
             
               <span class="speakers-company"></span>
             </td>
@@ -669,32 +826,36 @@ you can apply for financial support to attend our workshop <a href="https://docs
 Nakul Agarwal, Yi-Ting Chen<br>
 <a href="https://ml4ad.github.io/files/papers2022/Risk Perception in Driving Scenes.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster B2</a> | 
-<a href="https://youtu.be/7luDUtEwNN0" target="_blank">video</a>
+<a href="https://youtu.be/7luDUtEwNN0" target="_blank">youtube</a>
 <br><br> 
 
 <b>Multi-Modal 3D GAN for Urban Scenes</b><br>
 Loïck Chambon, Mickael Chen, Tuan-Hung Vu, Alexandre Boulch, Andrei Bursuc, Matthieu Cord, Patrick Pérez<br>
 <a href="https://ml4ad.github.io/files/papers2022/Multi-Modal 3D GAN for Urban Scenes.pdf" target="_blank">paper</a> | 
-<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster B9</a>
+<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster B9</a> | 
+<a href="https://slideslive.com/38993736/multimodal-gan-for-3d-urban-scenes" target="_blank">slideslive</a>
 <br><br> 
 
 <b>DriveCLIP: Zero-Shot Transfer for Distracted Driving Activity Understanding using CLIP</b><br>
 Md Zahid Hasan, Ameya Joshi, Mohammed Rahman, Archana Venkatachalapathy, Anuj Sharma, Chinmay Hegde, Soumik Sarkar<br>
 <a href="https://ml4ad.github.io/files/papers2022/DriveCLIP: Zero-Shot Transfer for Distracted Driving Activity Understanding using CLIP.pdf" target="_blank">paper</a> | 
-<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster C2</a>
+<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster C2</a> | 
+<a href="https://slideslive.com/38993725/driveclip-zeroshot-transfer-for-distracted-driving-activity-understanding-using-clip" target="_blank">slideslive</a>
 <br><br> 
 
 <b>Are All Vision Models Created Equal? A Study of the Open-Loop to Closed-Loop Causality Gap</b><br>
 Mathias Lechner, Ramin Hasani, Alexander Amini, Tsun-Hsuan Wang, Thomas Henzinger, Daniela Rus<br>
 <a href="https://ml4ad.github.io/files/papers2022/Are All Vision Models Created Equal. A Study of the Open-Loop to Closed-Loop Causality Gap.pdf" target="_blank">paper</a> | 
-<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster C9</a>
+<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster C9</a> | 
+<a href="https://slideslive.com/38993710/are-all-vision-models-created-equal-a-study-of-the-openloop-to-closedloop-causality-gap" target="_blank">slideslive</a>
 <br><br> 
 
 <b>Rationale-aware Autonomous Driving Policy utilizing Safety Force Field implemented on CARLA Simulator</b><br>
 Ho Suk*, Taewoo Kim*, Hyungbin Park, Pamul Yadav, Junyong Lee, Shiho Kim<br>
 <a href="https://ml4ad.github.io/files/papers2022/Rationale-aware Autonomous Driving Policy utilizing Safety Force Field implemented on CARLA Simulator.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster B1</a> | 
-<a href="https://youtu.be/_OL0SUx2JeI" target="_blank">video</a>
+<a href="https://slideslive.com/38993708/rationaleaware-autonomous-driving-policy-utilizing-safety-force-field-implemented-on-carla-simulator" target="_blank">slideslive</a> | 
+<a href="https://youtu.be/_OL0SUx2JeI" target="_blank">youtube</a>
 <br><br> 
 
 </p>
@@ -709,235 +870,269 @@ Ho Suk*, Taewoo Kim*, Hyungbin Park, Pamul Yadav, Junyong Lee, Shiho Kim<br>
 Pasquale Antonante, Heath Nilsen, Luca Carlone<br>
 <a href="https://ml4ad.github.io/files/papers2022/Monitoring of Perception Systems: Deterministic, Probabilistic, and Learning-based Fault Detection and Identification.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster B7</a> | 
-<a href="https://youtu.be/NHPk6Y6kuAE" target="_blank">video</a>
+<a href="https://slideslive.com/38993718/monitoring-of-perception-systems-deterministic-probabilistic-and-learningbased-fault-detection-and-identification" target="_blank">slideslive</a> | 
+<a href="https://youtu.be/NHPk6Y6kuAE" target="_blank">youtube</a>
 <br><br> 
 
 <b>VN-Transformer: Rotation-Equivariant Attention for Vector Neurons</b><br>
 Serge Assaad, Carlton Downey, Rami Al-Rfou, Nigamaa Nayakanti, Benjamin Sapp<br>
 <a href="https://ml4ad.github.io/files/papers2022/VN-Transformer: Rotation-Equivariant Attention for Vector Neurons.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster A2</a> | 
-<a href="https://youtu.be/1KrPzUKwSL8" target="_blank">video</a>
+<a href="https://slideslive.com/38993728/vntransformer-rotationequivariant-attention-for-vector-neurons" target="_blank">slideslive</a> | 
+<a href="https://youtu.be/1KrPzUKwSL8" target="_blank">youtube</a>
 <br><br> 
 
 <b>Controlling Steering with Energy-Based Models</b><br>
 Mykyta Baliesnyi, Ardi Tampuu, Tambet Matiisen<br>
 <a href="https://ml4ad.github.io/files/papers2022/Controlling Steering with Energy-Based Models.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster A1</a> | 
-<a href="https://youtu.be/QfN11Dp7lnw" target="_blank">video</a>
+<a href="https://youtu.be/QfN11Dp7lnw" target="_blank">youtube</a>
 <br><br> 
 
 <b>Verifiable Goal Recognition for Autonomous Driving with Occlusions</b><br>
 Cillian Brewitt, Massimiliano Tamborski, Stefano Albrecht<br>
 <a href="https://ml4ad.github.io/files/papers2022/Verifiable Goal Recognition for Autonomous Driving with Occlusions.pdf" target="_blank">paper</a> | 
-<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster D6</a>
+<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster D6</a> | 
+<a href="https://slideslive.com/38993723/verifiable-goal-recognition-for-autonomous-driving-with-occlusions" target="_blank">slideslive</a>
 <br><br> 
 
 <b>Robust Trajectory Prediction against Adversarial Attacks</b><br>
 Yulong Cao, Danfei Xu, Xinshuo Weng, Zhuoqing Mao, Anima Anandkumar, Chaowei Xiao, Marco Pavone<br>
 <a href="https://ml4ad.github.io/files/papers2022/Robust Trajectory Prediction against Adversarial Attacks.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster A7</a> | 
-<a href="https://youtu.be/LIn0eAlhcMg" target="_blank">video</a>
+<a href="https://slideslive.com/38993740/robust-trajectory-prediction-against-adversarial-attacks" target="_blank">slideslive</a> | 
+<a href="https://youtu.be/LIn0eAlhcMg" target="_blank">youtube</a>
 <br><br> 
 
 <b>AdvDO: Realistic Adversarial Attacks for Trajectory Prediction</b><br>
 Yulong Cao, Chaowei Xiao, Anima Anandkumar, Danfei Xu, Marco Pavone<br>
 <a href="https://ml4ad.github.io/files/papers2022/AdvDO: Realistic Adversarial Attacks for Trajectory Prediction.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster A6</a> | 
-<a href="https://youtu.be/U9n0ymQ1G3U" target="_blank">video</a>
+<a href="https://slideslive.com/38993737/advdo-realistic-adversarial-attacks-for-trajectory-prediction" target="_blank">slideslive</a> | 
+<a href="https://youtu.be/U9n0ymQ1G3U" target="_blank">youtube</a>
 <br><br> 
 
 <b>Improving Motion Forecasting for Autonomous Driving with the Cycle Consistency Loss</b><br>
 Titas Chakraborty, Akshay Bhagat, Henggang Cui<br>
 <a href="https://ml4ad.github.io/files/papers2022/Improving Motion Forecasting for Autonomous Driving with the Cycle Consistency Loss.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster B5</a> | 
-<a href="https://youtu.be/NZboJ4IulCs" target="_blank">video</a>
+<a href="https://slideslive.com/38993738/improving-motion-forecasting-for-autonomous-driving-with-the-cycle-consistency-loss" target="_blank">slideslive</a> | 
+<a href="https://youtu.be/NZboJ4IulCs" target="_blank">youtube</a>
 <br><br> 
 
 <b>VISTA: VIrtual STereo based Augmentation for Depth Estimation in Automated Driving</b><br>
 Bin Cheng, Kshitiz Bansal, Mehul Agarwal, Gaurav Bansal, Dinesh Bharadia<br>
 <a href="https://ml4ad.github.io/files/papers2022/VISTA: VIrtual STereo based Augmentation for Depth Estimation in Automated Driving.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster B3</a> | 
-<a href="https://youtu.be/90_i2HWyfuo" target="_blank">video</a>
+<a href="https://slideslive.com/38993719/vista-virtual-stereo-based-augmentation-for-depth-estimation-in-automated-driving" target="_blank">slideslive</a> | 
+<a href="https://youtu.be/90_i2HWyfuo" target="_blank">youtube</a>
 <br><br> 
 
 <b>Finding Safe Zones of Markov Decision Processes Policies</b><br>
 Lee Cohen, Yishay Mansour, Michal Moshkovitz<br>
 <a href="https://ml4ad.github.io/files/papers2022/Finding Safe Zones of Markov Decision Processes Policies.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster C8</a> | 
-<a href="https://youtu.be/D98VoZ6Rav0" target="_blank">video</a>
+<a href="https://slideslive.com/38993711/finding-safe-zones-of-markov-decision-processes-policies" target="_blank">slideslive</a> | 
+<a href="https://youtu.be/D98VoZ6Rav0" target="_blank">youtube</a>
 <br><br> 
 
 <b>One-Shot Learning of Visual Path Navigation for Autonomous Vehicles</b><br>
 Zhongying CuiZhu*, Francois Charette*, Amin Ghafourian*, Debo Shi, Matthew Cui, Anjali Krishnamachar, Iman Bozchalooi<br>
 <a href="https://ml4ad.github.io/files/papers2022/One-Shot Learning of Visual Path Navigation for Autonomous Vehicles.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster A5</a> | 
-<a href="https://youtu.be/H_ef2vGj69s" target="_blank">video</a>
+<a href="https://slideslive.com/38993727/oneshot-learning-of-visual-path-navigation-for-autonomous-vehicles" target="_blank">slideslive</a> | 
+<a href="https://youtu.be/H_ef2vGj69s" target="_blank">youtube</a>
 <br><br> 
 
 <b>Stress-Testing Point Cloud Registration on Automotive LiDAR</b><br>
 Amnon Drory, Raja Giryes, Shai Avidan<br>
 <a href="https://ml4ad.github.io/files/papers2022/Stress-Testing Point Cloud Registration on Automotive LiDAR.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster D1</a> | 
-<a href="https://youtu.be/YeHrck-a3Hw" target="_blank">video</a>
+<a href="https://slideslive.com/38993721/stresstesting-point-cloud-registration-on-automotive-lidar" target="_blank">slideslive</a> | 
+<a href="https://youtu.be/YeHrck-a3Hw" target="_blank">youtube</a>
 <br><br> 
 
 <b>KING: Generating Safety-Critical Driving Scenarios for Robust Imitation via Kinematics Gradients</b><br>
 Niklas Hanselmann, Katrin Renz, Kashyap Chitta, Apratim Bhattacharyya, Andreas Geiger<br>
 <a href="https://ml4ad.github.io/files/papers2022/KING: Generating Safety-Critical Driving Scenarios for Robust Imitation via Kinematics Gradients.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster D7</a> | 
-<a href="https://youtu.be/2uAHPRaWZYk" target="_blank">video</a>
+<a href="https://slideslive.com/38993735/king-generating-safetycritical-driving-scenarios-for-robust-imitation-via-kinematics-gradients" target="_blank">slideslive</a> | 
+<a href="https://youtu.be/2uAHPRaWZYk" target="_blank">youtube</a>
 <br><br> 
 
 <b>Fast-BEV: Towards Real-time On-vehicle Bird's-Eye View Perception</b><br>
 Bin Huang*, Yangguang Li*, Enze Xie*, Feng Liang*, Luya Wang, Mingzhu Shen, Fenggang Liu, Tianqi Wang, Ping Luo, Jing Shao<br>
 <a href="https://ml4ad.github.io/files/papers2022/Fast-BEV: Towards Real-time On-vehicle Bird's-Eye View Perception.pdf" target="_blank">paper</a> | 
-<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster D8</a>
+<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster D8</a> | 
+<a href="https://slideslive.com/38993733/fastbev-towards-realtime-onvehicle-birdseye-view-perception" target="_blank">slideslive</a>
 <br><br> 
 
 <b>DiffStack: A Differentiable and Modular Control Stack for Autonomous Vehicles</b><br>
 Peter Karkus, Boris Ivanovic, Shie Mannor, Marco Pavone<br>
 <a href="https://ml4ad.github.io/files/papers2022/DiffStack: A Differentiable and Modular Control Stack for Autonomous Vehicles.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster D5</a> | 
-<a href="https://youtu.be/aJJqijJ6OAc" target="_blank">video</a>
+<a href="https://slideslive.com/38993722/diffstack-a-differentiable-and-modular-control-stack-for-autonomous-vehicles" target="_blank">slideslive</a> | 
+<a href="https://youtu.be/aJJqijJ6OAc" target="_blank">youtube</a>
 <br><br> 
 
 <b>An Intelligent Modular Real-Time Vision-Based System for Environment Perception</b><br>
 Amirhossein Kazerouni*, Amirhossein Heydarian*, Milad Soltany*, Aida Mohammadshahi*, Abbas Omidi*, Saeed Ebadollahi<br>
 <a href="https://ml4ad.github.io/files/papers2022/An Intelligent Modular Real-Time Vision-Based System for Environment Perception.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster A9</a> | 
-<a href="https://youtu.be/MozBUZEyPao" target="_blank">video</a>
+<a href="https://slideslive.com/38993734/an-intelligent-modular-realtime-visionbased-system-for-environment-perception" target="_blank">slideslive</a> | 
+<a href="https://youtu.be/MozBUZEyPao" target="_blank">youtube</a>
 <br><br> 
 
 <b>PolarMOT: How Far Can Geometric Relations Take Us in 3D Multi-Object Tracking?</b><br>
 Aleksandr Kim, Guillem Brasó, Aljoša Ošep, Laura Leal-Taixé<br>
 <a href="https://ml4ad.github.io/files/papers2022/PolarMOT: How Far Can Geometric Relations Take Us in 3D Multi-Object Tracking.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster B6</a> | 
-<a href="https://youtu.be/59D7ndcz0Xg" target="_blank">video</a>
+<a href="https://slideslive.com/38993730/polarmot-how-far-can-geometric-relations-take-us-in-3d-multiobject-tracking" target="_blank">slideslive</a> | 
+<a href="https://youtu.be/59D7ndcz0Xg" target="_blank">youtube</a>
 <br><br> 
 
 <b>TALISMAN: Targeted Active Learning for Object Detection with Rare Classes and Slices using Submodular Mutual Information</b><br>
 Suraj Kothawade, Saikat Ghosh, Sumit Shekhar, Yu Xiang, Rishabh Iyer<br>
 <a href="https://ml4ad.github.io/files/papers2022/TALISMAN: Targeted Active Learning for Object Detection with Rare Classes and Slices using Submodular Mutual Information.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster D2</a> | 
-<a href="https://youtu.be/ffWr5H3BrfA" target="_blank">video</a>
+<a href="https://slideslive.com/38993703/talisman-targeted-active-learning-for-object-detection-with-rare-classes-and-slices-using-submodular-mutual-information" target="_blank">slideslive</a> | 
+<a href="https://youtu.be/ffWr5H3BrfA" target="_blank">youtube</a>
 <br><br> 
 
 <b>CW-ERM: Improving Autonomous Driving Planning with Closed-loop Weighted Empirical Risk Minimization</b><br>
 Eesha Kumar, Yiming Zhang, Stefano Pini, Simon Stent, Ana Sofia Rufino Ferreira, Sergey Zagoruyko, Christian Perone<br>
 <a href="https://ml4ad.github.io/files/papers2022/CW-ERM: Improving Autonomous Driving Planning with Closed-loop Weighted Empirical Risk Minimization.pdf" target="_blank">paper</a> | 
-<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster A4</a>
+<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster A4</a> | 
+<a href="https://slideslive.com/38993720/cwerm-improving-autonomous-driving-planning-with-closedloop-weighted-empirical-risk-minimization" target="_blank">slideslive</a>
 <br><br> 
 
 <b>Missing Traffic Data Imputation Using Multi-Trajectory Parameter Transferred LSTM</b><br>
 Jungmin Kwon, Hyunggon Park<br>
 <a href="https://ml4ad.github.io/files/papers2022/Missing Traffic Data Imputation Using Multi-Trajectory Parameter Transferred LSTM.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster D3</a> | 
-<a href="https://youtu.be/NgEDy4P-PXU" target="_blank">video</a>
+<a href="https://slideslive.com/38993713/missing-traffic-data-imputation-using-multitrajectory-parameter-transferred-lstm" target="_blank">slideslive</a> | 
+<a href="https://youtu.be/NgEDy4P-PXU" target="_blank">youtube</a>
 <br><br> 
 
 <b>Calibrated Perception Uncertainty Across Objects and Regions in Bird's-Eye-View</b><br>
 Markus Kängsepp, Meelis Kull<br>
 <a href="https://ml4ad.github.io/files/papers2022/Calibrated Perception Uncertainty Across Objects and Regions in Bird's-Eye-View.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster D4</a> | 
-<a href="https://youtu.be/eX_hgLUMakk" target="_blank">video</a>
+<a href="https://slideslive.com/38993729/calibrated-perception-uncertainty-across-objects-and-regions-in-birdseyeview" target="_blank">slideslive</a> | 
+<a href="https://youtu.be/eX_hgLUMakk" target="_blank">youtube</a>
 <br><br> 
 
 <b>Imitation Is Not Enough: Robustifying Imitation with Reinforcement Learning for Challenging Driving Scenarios</b><br>
 Yiren Lu, Justin Fu, George Tucker, Xinlei Pan, Eli Bronstein, Rebecca Roelofs, Benjamin Sapp, Brandyn White, Aleksandra Faust, Shimon Whiteson, Dragomir Anguelov, Sergey Levine<br>
 <a href="https://ml4ad.github.io/files/papers2022/Imitation Is Not Enough: Robustifying Imitation with Reinforcement Learning for Challenging Driving Scenarios.pdf" target="_blank">paper</a> | 
-<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster B4</a>
+<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster B4</a> | 
+<a href="https://slideslive.com/38993705/imitation-is-not-enough-robustifying-imitation-with-reinforcement-learning-for-challenging-driving-scenarios" target="_blank">slideslive</a>
 <br><br> 
 
 <b>ViT-DD: Multi-Task Vision Transformer for Semi-Supervised Driver Distraction Detection</b><br>
 Yunsheng Ma, Ziran Wang<br>
 <a href="https://ml4ad.github.io/files/papers2022/ViT-DD: Multi-Task Vision Transformer for Semi-Supervised Driver Distraction Detection.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster A3</a> | 
-<a href="https://youtu.be/UnBLg421xuA" target="_blank">video</a>
+<a href="https://slideslive.com/38993717/vitdd-multitask-vision-transformer-for-semisupervised-driver-distraction-detection" target="_blank">slideslive</a> | 
+<a href="https://youtu.be/UnBLg421xuA" target="_blank">youtube</a>
 <br><br> 
 
 <b>Direct LiDAR-based Object Detector Training from Automated 2D Detections</b><br>
 Robert McCraith, Eldar Insafutdinov, Lukas Neumann, Andrea Vedaldi<br>
 <a href="https://ml4ad.github.io/files/papers2022/Direct LiDAR-based Object Detector Training from Automated 2D Detections.pdf" target="_blank">paper</a> | 
-<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster D9</a>
+<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster D9</a> | 
+<a href="https://slideslive.com/38993724/direct-lidarbased-object-detector-training-from-automated-2d-detections" target="_blank">slideslive</a>
 <br><br> 
 
 <b>Safe Real-World Autonomous Driving by Learning to Predict and Plan with a Mixture of Experts</b><br>
 Stefano Pini, Christian Perone, Aayush Ahuja, Ana Sofia Rufino Ferreira, Moritz Niendorf, Sergey Zagoruyko<br>
 <a href="https://ml4ad.github.io/files/papers2022/Safe Real-World Autonomous Driving by Learning to Predict and Plan with a Mixture of Experts.pdf" target="_blank">paper</a> | 
-<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster C7</a>
+<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster C7</a> | 
+<a href="https://slideslive.com/38993714/safepathnet-safe-realworld-autonomous-driving-by-learning-to-predict-and-plan-with-a-mixture-of-experts" target="_blank">slideslive</a>
 <br><br> 
 
 <b>PlanT: Explainable Planning Transformers via Object-Level Representations</b><br>
 Katrin Renz, Kashyap Chitta, Otniel-Bogdan Mercea, Almut Sophia Koepke, Zeynep Akata, Andreas Geiger<br>
 <a href="https://ml4ad.github.io/files/papers2022/PlanT: Explainable Planning Transformers via Object-Level Representations.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster C3</a> | 
-<a href="https://youtu.be/rlBQtGUbWYE" target="_blank">video</a>
+<a href="https://slideslive.com/38993707/plant-explainable-planning-transformers-via-objectlevel-representations" target="_blank">slideslive</a> | 
+<a href="https://youtu.be/rlBQtGUbWYE" target="_blank">youtube</a>
 <br><br> 
 
 <b>Distortion-Aware Network Pruning and Feature Reuse for Real-time Video Segmentation</b><br>
 Hyunsu Rhee, Dongchan Min, Sunil Hwang, Bruno Andreis, Sung Ju Hwang<br>
 <a href="https://ml4ad.github.io/files/papers2022/Distortion-Aware Network Pruning and Feature Reuse for Real-time Video Segmentation.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster A10</a> | 
-<a href="https://youtu.be/4qkeu9umwXQ" target="_blank">video</a>
+<a href="https://slideslive.com/38993704/distortionaware-network-pruning-and-feature-reuse-for-realtime-video-segmentation" target="_blank">slideslive</a> | 
+<a href="https://youtu.be/4qkeu9umwXQ" target="_blank">youtube</a>
 <br><br> 
 
 <b>Improving Predictive Performance and Calibration by Weight Fusion in Semantic Segmentation</b><br>
 Timo Sämann, Ahmed Mostafa Hammam, Andrei Bursuc, Christoph Stiller, Horst-Michael Groß<br>
 <a href="https://ml4ad.github.io/files/papers2022/Improving Predictive Performance and Calibration by Weight Fusion in Semantic Segmentation.pdf" target="_blank">paper</a> | 
-<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster C4</a>
+<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster C4</a> | 
+<a href="https://slideslive.com/38993726/improving-predictive-performance-and-calibration-by-weight-fusion-in-semantic-segmentation" target="_blank">slideslive</a>
 <br><br> 
 
 <b>GNM: A General Navigation Model to Drive Any Robot</b><br>
 Dhruv Shah*, Ajay Sridhar*, Arjun Bhorkar, Noriaki Hirose, Sergey Levine<br>
 <a href="https://ml4ad.github.io/files/papers2022/GNM: A General Navigation Model to Drive Any Robot.pdf" target="_blank">paper</a> | 
-<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster D10</a>
+<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster D10</a> | 
+<a href="https://slideslive.com/38993702/gnm-a-general-navigation-model-to-drive-any-robot" target="_blank">slideslive</a>
 <br><br> 
 
 <b>Enhancing System-level Safety in Autonomous Driving via Feedback Learning</b><br>
 Sin Yong Tan, Weisi Fan, Qisai Liu, Tichakorn Wongpiromsarn, Soumik Sarkar<br>
 <a href="https://ml4ad.github.io/files/papers2022/Enhancing System-level Safety in Autonomous Driving via Feedback Learning.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster C10</a> | 
-<a href="https://youtu.be/vLWjMrrfhCE" target="_blank">video</a>
+<a href="https://slideslive.com/38993712/enhancing-systemlevel-safety-in-autonomous-driving-via-feedback-learning" target="_blank">slideslive</a> | 
+<a href="https://youtu.be/vLWjMrrfhCE" target="_blank">youtube</a>
 <br><br> 
 
 <b>Analyzing Deep Learning Representations of Point Clouds for Real-Time In-Vehicle LiDAR Perception</b><br>
 Marc Uecker, Tobias Fleck, Marcel Pflugfelder, Marius Zöllner<br>
 <a href="https://ml4ad.github.io/files/papers2022/Analyzing Deep Learning Representations of Point Clouds for Real-Time In-Vehicle LiDAR Perception.pdf" target="_blank">paper</a> | 
-<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster C6</a>
+<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster C6</a> | 
+<a href="https://slideslive.com/38993709/analyzing-deep-learning-representations-for-realtime-invehicle-lidar-perception" target="_blank">slideslive</a>
 <br><br> 
 
 <b>CAMEL: Learning Cost-maps Made Easy for Off-road Driving</b><br>
 Kasi Viswanath, Sujit Baliyarasimhuni, Srikanth Saripalli<br>
 <a href="https://ml4ad.github.io/files/papers2022/CAMEL: Learning Cost-maps Made Easy for Off-road Driving.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster A8</a> | 
-<a href="https://youtu.be/vc5F61COygQ" target="_blank">video</a>
+<a href="https://slideslive.com/38993732/camel-learning-costmaps-made-easy-for-offroad-driving" target="_blank">slideslive</a> | 
+<a href="https://youtu.be/vc5F61COygQ" target="_blank">youtube</a>
 <br><br> 
 
 <b>A Versatile and Efficient Reinforcement Learning Approach for Autonomous Driving</b><br>
 Guan Wang, Haoyi Niu, Desheng Zhu, Jianming Hu, Xianyuan Zhan, Guyue Zhou<br>
 <a href="https://ml4ad.github.io/files/papers2022/A Versatile and Efficient Reinforcement Learning Approach for Autonomous Driving.pdf" target="_blank">paper</a> | 
-<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster C5</a>
+<a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster C5</a> | 
+<a href="https://slideslive.com/38993739/a-versatile-and-efficient-reinforcement-learning-approach-for-autonomous-driving" target="_blank">slideslive</a>
 <br><br> 
 
 <b>Uncertainty-Aware Self-Training with Expectation Maximization Basis Transformation</b><br>
 Zijia Wang, Wenbin Yang, Zhi-Song Liu, Zhen Jia<br>
 <a href="https://ml4ad.github.io/files/papers2022/Uncertainty-Aware Self-Training with Expectation Maximization Basis Transformation.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster B10</a> | 
-<a href="https://youtube.com/shorts/-Jb7Eha_1cg" target="_blank">video</a>
+<a href="https://slideslive.com/38993715/uncertaintyaware-selftraining-with-expectation-maximization-basis-transformation" target="_blank">slideslive</a> | 
+<a href="https://youtube.com/shorts/-Jb7Eha_1cg" target="_blank">youtube</a>
 <br><br> 
 
 <b>Potential Energy based Mixture Model for Noisy Label Learning</b><br>
 Zijia Wang, Wenbin Yang, Zhi-Song Liu, Zhen Jia<br>
 <a href="https://ml4ad.github.io/files/papers2022/Potential Energy based Mixture Model for Noisy Label Learning.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster C1</a> | 
-<a href="https://youtu.be/JTrOavVJfZI" target="_blank">video</a>
+<a href="https://slideslive.com/38993706/potential-energy-based-mixture-model-for-noisy-label-learning" target="_blank">slideslive</a> | 
+<a href="https://youtu.be/JTrOavVJfZI" target="_blank">youtube</a>
 <br><br> 
 
 <b>A Graph Representation for Autonomous Driving</b><br>
 Zerong Xi, Gita Sukthankar<br>
 <a href="https://ml4ad.github.io/files/papers2022/A Graph Representation for Autonomous Driving.pdf" target="_blank">paper</a> | 
 <a href="https://app.gather.town/app/ul3nGoeZXMhlgvLJ/ML4AD%202022" target="_blank">poster B8</a> | 
-<a href="https://youtu.be/_--tjPruB_4" target="_blank">video</a>
+<a href="https://slideslive.com/38993731/a-graph-representation-for-autonomous-driving" target="_blank">slideslive</a> | 
+<a href="https://youtu.be/_--tjPruB_4" target="_blank">youtube</a>
 <br><br> 
 
 </p>
