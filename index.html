@@ -424,7 +424,7 @@ Authors may submit to either submission round and reviewers will treat both roun
           </section>
         
           <section class="organizers" id="organizers">
-            <div class="row">
+            <div class="row" id="allorganizers">
 <div class="column" id="conference-organizers">
 <h3 class="section-title">Organizers</h3>
 <ul class="organizers-list">
@@ -578,9 +578,9 @@ Authors may submit to either submission round and reviewers will treat both roun
 
 <span id="conference-organizers-below"></span>
 <span id="workshop-organizers-below"></span>
-<span id="pc0-below"></span>
-<span id="pc1-below"></span>
-<span id="pc2-below"></span>
+
+
+
 
 <script>
   var x = setTimeout(function() {
@@ -588,14 +588,8 @@ Authors may submit to either submission round and reviewers will treat both roun
     if (width < 900) {
       document.getElementById("conference-organizers-below").innerHTML = document.getElementById("conference-organizers").innerHTML
       document.getElementById("workshop-organizers-below").innerHTML = document.getElementById("workshop-organizers").innerHTML
-      document.getElementById("pc0-below").innerHTML = document.getElementById("pc0").innerHTML
-      document.getElementById("pc1-below").innerHTML = document.getElementById("pc1").innerHTML
-      document.getElementById("pc2-below").innerHTML = document.getElementById("pc2").innerHTML
       document.getElementById("conference-organizers").innerHTML = ""
       document.getElementById("workshop-organizers").innerHTML = ""
-      document.getElementById("pc0").innerHTML = ""
-      document.getElementById("pc1").innerHTML = ""
-      document.getElementById("pc2").innerHTML = ""
     }
   }, 0);
 </script>
