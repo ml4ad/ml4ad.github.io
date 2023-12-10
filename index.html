@@ -42,13 +42,6 @@
     
       <li class="nav-item">
         
-        <a href="#dates" title="Dates" class="nav-link">
-          Dates
-        </a>
-      </li>
-    
-      <li class="nav-item">
-        
         <a href="#speakers" title="Speakers" class="nav-link">
           Speakers
         </a>
@@ -146,97 +139,6 @@
 &#8226; Authors: please bring a poster up to 24wide x 36high inches.
 </p>
 
-
-
-          </section>
-        
-          <section class="dates" id="dates">
-            <h2 class="section-title">Dates</h2>
-
-<style> 
-hide {
-  opacity: 0.0;
-}
-</style>
-
-<style> 
-transparent {
-  opacity: 0.7;
-}
-</style>
-
-
-<h4>Papers</h4>
-<p itemprop="dates-description">
-
-
-
-<transparent><hide>&rarr;</hide><b>Submission (1<sup>st</sup> round)</b>: 19th October 2023</transparent><br>
-<transparent><hide>&rarr;</hide><b>Notification (1<sup>st</sup> round)</b>: 27th October 2023</transparent><br>
-<transparent><hide>&rarr;</hide><b>Submission (2<sup>nd</sup> round)</b>: 16th November 2023</transparent><br>
-<transparent><hide>&rarr;</hide><b>Notification (2<sup>nd</sup> round)</b>: 24th November 2023</transparent><br>
-<transparent><hide>&rarr;</hide><b>Camera ready</b> (both rounds): 5th December 2023</transparent><br>
-</p>
-
-<h4>Challenge</h4>
-<p itemprop="dates-description">
-<transparent><hide>&rarr;</hide><b>Open</b>: 1st July 2023</transparent><br>
-<transparent><hide>&rarr;</hide><b>Close</b>: 1st December 2023</transparent><br>  
-<transparent><hide>&rarr;</hide><b>Notification</b>: 4th December 2023</transparent><br>
-<hide>&rarr;</hide><b>Video submission</b>: 11th December 2023<br>
-</p>
-
-<h4>Symposium</h4>
-<p itemprop="dates-description">
-<hide>&rarr;</hide><b>Symposium event</b>: 14th December 2023<br>
-</p>
-
-<script>
-  
-  var countDownDate1 = new Date("Oct 19, 2023 23:59:59 UTC").getTime();  
-  var countDownDate2 = new Date("Nov 16, 2023 23:59:59 UTC").getTime();  
-  countDownDate1 = countDownDate1 + 1000 * 3600 * 12 
-  countDownDate2 = countDownDate2 + 1000 * 3600 * 12 
-
-  
-  var x = setInterval(function() {
-
-    
-    var now = new Date().getTime();
-
-    
-    var distance1 = countDownDate1 - now;
-    var distance2 = countDownDate2 - now;
-
-    
-    var days1 = Math.floor(distance1 / (1000 * 60 * 60 * 24));
-    var days2 = Math.floor(distance2 / (1000 * 60 * 60 * 24));
-    var hours1 = Math.floor((distance1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var hours2 = Math.floor((distance2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes1 = Math.floor((distance1 % (1000 * 60 * 60)) / (1000 * 60));
-    var minutes2 = Math.floor((distance2 % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds1 = Math.floor((distance1 % (1000 * 60)) / 1000);
-    var seconds2 = Math.floor((distance2 % (1000 * 60)) / 1000);
-
-    
-    var countdown1 = days1 + "d " + hours1 + "h " + minutes1 + "m " + seconds1 + "s ";
-    var countdown2 = days2 + "d " + hours2 + "h " + minutes2 + "m " + seconds2 + "s ";
-
-    
-    if (distance1 < 0) {
-      clearInterval(x);
-      countdown1 = "(expired)";  
-    }
-    if (distance2 < 0) {
-      clearInterval(x);
-      countdown2 = "(expired)";  
-    }
-
-    
-    document.getElementById("countdown2").innerHTML = countdown2
-
-  }, 1000);
-</script>
 
 
           </section>
