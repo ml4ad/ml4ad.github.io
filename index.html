@@ -251,7 +251,7 @@
           <section class="schedule" id="schedule">
             <h2 class="section-title">Schedule</h2>
 
-<p>Thursday December 14th, 2023. All times are in Central Standard Time (UTC-6). Current time is <span id="centraltime"></span>
+<p>Tuesday 4th March 2025. All times are in Eastern Standard Time (UTC-5). Current time is <span id="easterntime"></span>
 
 </p>
 
@@ -533,8 +533,8 @@
   
   var x = setInterval(function() {
     var d = new Date();
-    var n = d.toLocaleTimeString("en-US", {timeZone: "America/Chicago", hour: '2-digit', minute:'2-digit', hour12: false})
-    document.getElementById("centraltime").innerHTML = n
+    var n = d.toLocaleTimeString("en-US", {timeZone: "America/New_York", hour: '2-digit', minute:'2-digit', hour12: false})
+    document.getElementById("easterntime").innerHTML = n
   }, 1000);
 </script>
 
